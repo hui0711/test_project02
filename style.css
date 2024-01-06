@@ -4,3 +4,16 @@ h1{
 h2{
     color: green;
 }
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr{
+    transition: background-color 2s ;
+}
+tr:hover {
+    background-color: aqua;
+}
+td, th{
+    padding: 0.25rem 0.5rem;
+}
